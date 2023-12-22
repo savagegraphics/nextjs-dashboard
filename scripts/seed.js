@@ -99,6 +99,7 @@ async function seedCustomers() {
         image_url VARCHAR(255) NOT NULL
       );
     `;
+    
 
     console.log(`Created "customers" table`);
 
